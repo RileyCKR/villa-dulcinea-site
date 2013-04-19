@@ -1,6 +1,7 @@
 <?php 
 $title = 'Villa Dulcinea';
 $menuIndex = 2;
+$headerImage = '/images/header/livingroom-2.jpg';
 
 require '/layout/header.php'; ?>
 

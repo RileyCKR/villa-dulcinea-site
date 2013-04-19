@@ -1,6 +1,7 @@
 <?php 
 $title = 'Home';
 $menuIndex = 1;
+$headerImage = '/images/header/pool-overhead.jpg';
 
 require '/layout/header.php'; ?>
        

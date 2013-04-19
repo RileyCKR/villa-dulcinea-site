@@ -8,7 +8,7 @@
 <body>
     <div id="main_wrapper">
         <div id="header_container">
-            <img src="/images/header-image.jpg" style="width:382px;height:256px" />
+            <img src="<?php echo $headerImage ?>" style="width:382px;height:256px" />
         </div>
         <div id="main_nav">
             <?php require 'menu.php'; ?>
