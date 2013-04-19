@@ -3,7 +3,7 @@ $title = 'Home';
 $menuIndex = 1;
 $headerImage = '/images/header/pool-overhead.jpg';
 
-require '/layout/header.php'; ?>
+require './layout/header.php'; ?>
        
 <table>
     <tbody><tr>
@@ -45,4 +45,4 @@ require '/layout/header.php'; ?>
         sports.</p>
 </div>
                 
-<?php require '/layout/footer.php'; ?>
+<?php require './layout/footer.php'; ?>

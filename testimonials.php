@@ -3,7 +3,7 @@ $title = 'Testimonials';
 $menuIndex = 5;
 $headerImage = '/images/header/outside.jpg';
 
-require '/layout/header.php'; ?>
+require './layout/header.php'; ?>
                         
     
 <h2>Heather - 2007</h2>
@@ -17,4 +17,4 @@ require '/layout/header.php'; ?>
 <h2>Walter - 2008</h2>
 <p></p><p>To say (this house) is a work of art would be an understatement.</p><p></p>
 
-<?php require '/layout/footer.php'; ?>
+<?php require './layout/footer.php'; ?>

@@ -3,7 +3,7 @@ $title = 'Villa Dulcinea';
 $menuIndex = 2;
 $headerImage = '/images/header/livingroom-2.jpg';
 
-require '/layout/header.php'; ?>
+require './layout/header.php'; ?>
 
 <h1>Villa Dulcinea</h1>
 
@@ -20,4 +20,4 @@ and sleeps an additional 4 people in two bedrooms.</p>
 <p>An on-site property manager and gardener is included. A cook is available 
 to prepare meals at an additional charge.</p>
 
-<?php require '/layout/footer.php'; ?>
+<?php require './layout/footer.php'; ?>

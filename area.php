@@ -3,7 +3,7 @@ $title = 'Area';
 $menuIndex = 3;
 $headerImage = '/images/header/outside-pool.jpg';
 
-require '/layout/header.php'; ?>
+require './layout/header.php'; ?>
 
 
                         
@@ -57,4 +57,4 @@ require '/layout/header.php'; ?>
 
                     
 
-<?php require '/layout/footer.php'; ?>
+<?php require './layout/footer.php'; ?>

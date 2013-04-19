@@ -3,7 +3,7 @@ $title = 'Photo Gallery';
 $menuIndex = 4;
 $headerImage = '/images/header/living-room.jpg';
 
-require '/layout/header.php'; ?>
+require './layout/header.php'; ?>
 
 <h2>Exterior</h2>
 <div>Exterior Photos.</div>
@@ -79,4 +79,4 @@ require '/layout/header.php'; ?>
     </tbody></table>
 </div>
 
-<?php require '/layout/footer.php'; ?>
+<?php require './layout/footer.php'; ?>
