@@ -2,6 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Villa on the Aegean - <?php echo $title ?></title>
+    <?php if ($menuIndex == 4) {
+        echo
+        '<script src="/js/prototype.js" type="text/javascript"></script>'.
+        '<script src="/js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>'.
+        '<script src="/js/lightbox.js" type="text/javascript"></script>'.
+        '<link media="screen" href="/css/lightbox.css" type="text/css" rel="Stylesheet">';
+    } ?>
     <link rel="Stylesheet" type="text/css" href="/css/styles.css" />
     <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
 </head>
