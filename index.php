@@ -1,4 +1,4 @@
-<?php require 'header.php'; ?>
+<?php require '/layout/header.php'; ?>
        
 <table class="rightColumn" style="padding:8px;">
     <tbody><tr>
@@ -42,4 +42,4 @@
     </div>
 </div>     
                 
-<?php require 'footer.php'; ?>
+<?php require '/layout/footer.php'; ?>
