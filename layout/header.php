@@ -3,6 +3,7 @@
 <head>
     <title>Turkey Villa</title>
     <link rel="Stylesheet" type="text/css" href="/css/styles.css" />
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
 </head>
 <body>
     <div id="main_wrapper">
