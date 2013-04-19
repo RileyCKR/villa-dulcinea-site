@@ -5,8 +5,7 @@
         </div>           
     </div>
     <div id="footer_container">
-        <span>Site Design/Layout by Christopher Riley &copy; 2009</span><br />
-        <span><a href="http://www.kentico.com">Powered by Kentico CMS for ASP.NET</a></span>
+        <span>Site Design/Layout by Christopher Riley &copy; 2009</span>
     </div>
 </body>
 </html>
