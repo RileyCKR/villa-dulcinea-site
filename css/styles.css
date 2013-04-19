@@ -126,3 +126,19 @@ float:right;
     text-align:justify;
     line-height: 1.25em;
 }
+
+.leftColumn {
+width:550px;
+float:left;
+}
+.rightColumn {
+width:325px;
+float:right;
+text-align:left;
+font-size:16px;
+}
+.rightColumn ul {
+margin:0px;
+padding:0px;
+list-style:none;
+} 
