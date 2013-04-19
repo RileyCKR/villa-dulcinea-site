@@ -1,4 +1,8 @@
-<?php require '/layout/header.php'; ?>
+<?php 
+$title = 'Home';
+$menuIndex = 1;
+
+require '/layout/header.php'; ?>
        
 <table class="rightColumn" style="padding:8px;">
     <tbody><tr>
