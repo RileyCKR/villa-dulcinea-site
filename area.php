@@ -29,19 +29,19 @@ require '/layout/header.php'; ?>
     <h2>Articles</h2>
     <ul>
         <li>
-            <a target="_blank" href="/getattachment/a37f4c08-8fea-4fc2-9e76-0498f37aa3f3/Bodrum-NYTimes.aspx">
+            <a target="_blank" href="/files/bodrum-ny-times.pdf">
                 <img src="/images/pdficon_large.gif" alt="pdf" border="0"> 
                 New York Times Article
             </a>
         </li>
         <li>
-            <a target="_blank" href="/getattachment/296d7e31-868c-4aac-b0c4-149b85a9d5dc/Bodrum-Newsweek.aspx">
+            <a target="_blank" href="/files/bodrum-newsweek.pdf">
                 <img src="/images/pdficon_large.gif" alt="pdf" border="0">
                 Newsweek Article
             </a>
         </li>
         <li>
-            <a target="_blank" href="/getattachment/7f2fe8c9-4a7d-47c9-8594-c53665185163/Bodrum-FinancialTimes.aspx">
+            <a target="_blank" href="/files/bodrum-financial-times.pdf">
                 <img src="/images/pdficon_large.gif" alt="pdf" border="0">
                 Financial Times Article
             </a>
@@ -50,8 +50,8 @@ require '/layout/header.php'; ?>
 
     <h2>Cultural Links</h2>
     <ul>
-        <li><a href="http://www.bodrum.org/">Bodrum information, pictures, attractions</a></li>
-        <li><a href="http://www.allaboutturkey.com/bodrum.htm">All about Turkey - Bodrum</a></li>
+        <li><a href="http://www.bodrum.org/" target="_blank">Bodrum information, pictures, attractions</a></li>
+        <li><a href="http://www.allaboutturkey.com/bodrum.htm" target="_blank">All about Turkey - Bodrum</a></li>
     </ul>
 </div>
 
