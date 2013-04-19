@@ -157,4 +157,12 @@ padding:3px;
 .teaserImage td {
 padding:8px;
 text-align:center;
-} 
+}
+.thumbWide {
+width:150px;
+height:100px;
+}
+.thumbTall {
+width:100px;
+height:150px;
+}
