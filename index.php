@@ -27,23 +27,21 @@ require '/layout/header.php'; ?>
 
 <h3 style="margin:0px;text-align:right;">&dash;The Financial Times (July 26, 2008)</h3>
 
-<div class="content">
-    <div class="leftColumn">
-        <h1 style="margin-top:0px;">Villa on the Aegean</h1>
-        <h2>Villa Dulcinea &mdash; Turkbuku, Turkey</h2>
-        <p>Set on a scenic hillside in Turkbuku, this stunning private villa, 
-            designed and built by Saim Arpat, offers panoramic views of the 
-            Aegean sea and surrounding coastline.</p>
-        <p>Enjoy the privacy of your villa with magnificent terraced gardens of 
-            fruit and olive trees and an infinity pool while just minutes from 
-            the night life of the St. Tropez of Turkey.</p>
-        <p>The seclusion of the villa allows for complete relaxation and quiet 
-            moments for reflection.&nbsp; Revel in the elegant interior, dine 
-            by the pool, or simply sunbathe on the upper balconies.</p>
-        <p>When one's mood calls for more activity, Turkbuku offers fabulous 
-            restaurants, nightclubs and beaches as well as a variety of water 
-            sports.</p>
-    </div>
-</div>     
+<div class="leftColumn">
+    <h1 style="margin-top:0px;">Villa on the Aegean</h1>
+    <h2>Villa Dulcinea &mdash; Turkbuku, Turkey</h2>
+    <p>Set on a scenic hillside in Turkbuku, this stunning private villa, 
+        designed and built by Saim Arpat, offers panoramic views of the 
+        Aegean sea and surrounding coastline.</p>
+    <p>Enjoy the privacy of your villa with magnificent terraced gardens of 
+        fruit and olive trees and an infinity pool while just minutes from 
+        the night life of the St. Tropez of Turkey.</p>
+    <p>The seclusion of the villa allows for complete relaxation and quiet 
+        moments for reflection.&nbsp; Revel in the elegant interior, dine 
+        by the pool, or simply sunbathe on the upper balconies.</p>
+    <p>When one's mood calls for more activity, Turkbuku offers fabulous 
+        restaurants, nightclubs and beaches as well as a variety of water 
+        sports.</p>
+</div>
                 
 <?php require '/layout/footer.php'; ?>
