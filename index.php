@@ -5,13 +5,13 @@ $headerImage = '/images/header/pool-overhead.jpg';
 
 require '/layout/header.php'; ?>
        
-<table class="rightColumn" style="padding:8px;">
+<table>
     <tbody><tr>
         <td valign="top">
-            <img src="/images/open-quote.png" style="float:left;padding-top:12px;">
+            <img src="/images/open-quote.png" style="padding-top:12px;">
         </td>
         <td>
-            <p class="pullQuote" style="float:left;width:100%;">
+            <p class="pullQuote">
                 The Turkish Riviera, also known as the Turquoise Coast, 
                 stretches for 600 miles from Alanaya in the East, along the 
                 country's North-West shores to Cesme. Much of the coastline is 
@@ -21,14 +21,14 @@ require '/layout/header.php'; ?>
             </p>
         </td>
         <td valign="top">
-            <img src="/images/close-quote.png" style="float:left;padding-top:80px;">
+            <img src="/images/close-quote.png" style="padding-top:80px;">
         </td>
     </tr>
 </tbody></table>    
 
 <h3 style="margin:0px;text-align:right;">&dash;The Financial Times (July 26, 2008)</h3>
 
-<div class="leftColumn">
+<div>
     <h1 style="margin-top:0px;">Villa on the Aegean</h1>
     <h2>Villa Dulcinea &mdash; Turkbuku, Turkey</h2>
     <p>Set on a scenic hillside in Turkbuku, this stunning private villa, 
