@@ -1,0 +1,128 @@
+﻿body, form{
+	background-color:#46311E;
+	background-image:url('../images/Woodgrain.png');
+	color:#C4B39B;
+	font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	margin:0px;
+	padding:0px;
+}
+.content{
+	padding:0px 16px;
+	line-height:1.75;	
+}
+a{
+	color:#9D5CF1;
+	text-decoration:none;
+}
+a:hover{
+	color:#E0E0E0;
+	text-decoration:underline;
+}
+.content p{
+	text-align:justify;
+}
+h1{
+	color:#F8F8F8;
+}
+h2{
+	color:#9D5CF1;
+	color:#E8E8E8;
+	border-bottom: 1px solid #202020;
+	font-size:medium;
+}
+#main_wrapper{
+	width:960px;
+	margin: 8px auto;
+	background-color:#3A3124;
+	border: solid 2px #202020;
+}
+#header_container{
+	min-height:256px;
+	background-image:url("../images/header.jpg");
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+#header_container.oldHeader{
+	background-image:url("../images/header_old.jpg");
+}
+#header_container .EditableTextTitle{
+	display:none;
+}
+#header_container .ImageSelectorHeader{
+	float:right;
+}
+#main_nav{
+	background-color:#202020;
+	height:24px;
+}
+#main_nav ul{
+	float:right;
+	margin:0px;
+	padding:0px;
+}
+#main_nav li{
+	float:left;
+	padding-right: 16px;
+	list-style-type:none;
+}
+#main_nav a{
+	color:#E8E8E8;
+	font-size:16px;
+	font-weight:bold;
+	vertical-align:middle;
+	text-decoration:none;
+}
+#main_nav a:hover{
+	color:#9D5CF1;
+	text-decoration:none;
+}
+#main_nav span{
+	color:#9D5CF1;
+	font-size:16px;
+	font-weight:bold;
+}
+#main_nav a.CMSListMenuLinkHighlighted{
+	color:#9D5CF1;
+}
+#footer_container{
+	text-align:center;
+	padding-bottom:10px;
+	font-size:11px;
+	line-height:2.0;
+}
+#footer_container a{
+	color:#C4B39B
+}
+
+.leftColumn n{ /*width:700px;*/ }
+.rightColumn {
+/*margin-top:170px;*/
+/*margin-top:20px;*/
+text-align:left;
+font-size:18px;
+}
+.rightColumn p {
+padding:12px;
+margin:0px;
+}
+.rightColumn .quote {
+font-size:60px;
+}
+.rightColumn h3 {
+font-size:14px;
+font-weight:normal;
+text-align:right;
+}
+.leftQuote {
+font-size:48px;
+float:left;
+}
+.rightQuote {
+font-size:48px;
+float:right;
+}
+.pullQuote{
+    text-align:justify;
+    line-height: 1.25em;
+}
