@@ -1,0 +1,38 @@
+doctype html
+block vars
+  - var bodyclass = null;
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      title= "Villa on the Aegean - " + page.metadata.title
+      link(rel='stylesheet', href=contents.css['main.css'].url)
+      
+  body(class=bodyclass)
+    div#main_wrapper
+      div#header_container
+        img(src=page.metadata.headerImage)
+      div#main_nav
+        ul#ListMenu1.classCMSListMenuUL
+          li.CMSListMenuLI
+            a(href="/index.html").CMSListMenuLink &gt; Home
+          li.CMSListMenuLI
+            a(href="/villa-dulcinea.html").CMSListMenuLink &gt; Villa Dulcinea
+          li.CMSListMenuLI
+            a(href="/area.html").CMSListMenuLink &gt; Area
+          li.CMSListMenuLI
+            a(href="/photo-gallery.html").CMSListMenuLink &gt; Photo Gallery
+          li.CMSListMenuLI
+            a(href="/testimonials.html").CMSListMenuLink &gt; Testimonials
+          li.CMSListMenuLI
+            a(href="/rent-now.html").CMSListMenuLink &gt; Rent Now
+        div.clear
+      div#main_container
+        div#content_container
+          div.content
+            block content
+              p Default content!
+        br
+    div#footer_container
+      span Site Design/Layout by Christopher Riley &copy; 2009

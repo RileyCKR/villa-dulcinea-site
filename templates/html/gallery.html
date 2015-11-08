@@ -1,0 +1,56 @@
+
+<div>
+    <h2>Exterior</h2>
+    <span>Exterior Photos.</span>
+</div>
+
+<div class="teaserImage">
+    <div class="photoThumb" ng-repeat="photo in gallery.exterior">
+        <a href="/photo/exterior/{{photo}}.jpg"
+           rel="lightbox[group]"
+           rev="/photo/exterior/{{photo}}.jpg"
+           title=""
+           target="_self">
+            <div class="photo" style="background-image:url('/photo/exterior/{{photo}}-thumb.jpg')"></div>
+            <!--<img src="/photo/exterior/{{photo}}-thumb.jpg" alt="image" class="xxthumbWide">-->
+        </a>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div>
+    <h2>Interior</h2>
+    <span>Interior Shots of the Villa.</span>
+</div>
+
+<div class="teaserImage">
+    <div class="photoThumb" ng-repeat="photo in gallery.interior" >
+        <a href="/photo/interior/{{photo}}.jpg"
+           rel="lightbox[group]"
+           rev="/photo/interior/{{photo}}.jpg"
+           title=""
+           taget="_self">
+            <div class="photo" style="background-image:url('/photo/interior/{{photo}}-thumb.jpg')"></div>
+            <!--<img src="/photo/interior/{{photo}}-thumb.jpg" alt="image" class="xxthumbWide">-->
+        </a>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div>
+    <h2>Guest House</h2>
+</div>
+
+<div class="teaserImage">
+    <div class="photoThumb" ng-repeat="photo in gallery.guestHouse">
+        <a href="/photo/guest-house/{{photo}}.jpg"
+           rel="lightbox[group]"
+           rev="/photo/guest-house/{{photo}}.jpg"
+           title=""
+           target="_self">
+            <div class="photo" style="background-image:url('/photo/guest-house/{{photo}}-thumb.jpg')"></div>
+            <!--<img src="/photo/guest-house/{{photo}}-thumb.jpg" alt="image" class="xxthumbWide">-->
+        </a>
+    </div>
+    <div class="clear"></div>
+</div>
