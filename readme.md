@@ -3,7 +3,7 @@
 
 Use npm to install dependencies `npm install`  
 
-Install wintersmith globally `npn install -g wintersmith`
+Install wintersmith globally `npm install -g wintersmith`
 
 # Build
 
