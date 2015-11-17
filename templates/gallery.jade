@@ -1,0 +1,50 @@
+
+extends layout
+
+block append head
+  link(rel='stylesheet', href="/css/lightbox.css")
+  script(src="/js/prototype.js", type="text/javascript")
+  script(src="/js/scriptaculous.js?load=effects,builder", type="text/javascript")
+  script(src="/js/lightbox.js", type="text/javascript")
+
+block vars
+  - var bodyclass = null;
+  - var exterior = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+  - var interior = ['01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20'];
+  - var guestHouse = ['01','02'];
+block content
+
+  div
+    h2 Exterior
+    span Exterior Photos.
+    
+  div.teaserImage
+    each image, index in exterior
+      div.photoThumb
+        a(href="/photo/exterior/" + image + ".jpg", rel="lightbox[group]", rev="/photo/exterior/" + image + ".jpg", target="_self")
+          div.photo(style="background-image:url('/photo/exterior/" + image + "-thumb.jpg')")
+    div.clear
+  
+  div
+    h2 Interior
+    span Interior Shots of the Villa.
+    
+  div.teaserImage
+    each image, index in interior
+      div.photoThumb
+        a(href="/photo/interior/" + image + ".jpg", rel="lightbox[group]", rev="/photo/interior/" + image + ".jpg", target="_self")
+          div.photo(style="background-image:url('/photo/interior/" + image + "-thumb.jpg')")
+    div.clear
+    
+  div
+    h2 Guest House
+    
+  div.teaserImage
+    each image, index in guestHouse
+      div.photoThumb
+        a(href="/photo/guest-house/" + image + ".jpg", rel="lightbox[group]", rev="/photo/guest-house/" + image + ".jpg", target="_self")
+          div.photo(style="background-image:url('/photo/guest-house/" + image + "-thumb.jpg')")
+    div.clear
+  
+    
+  

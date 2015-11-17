@@ -1,0 +1,12 @@
+{
+  "locals": {
+    "url": "http://localhost:8080"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  }
+}
